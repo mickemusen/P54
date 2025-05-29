@@ -1,3 +1,6 @@
+// This module generates a list of tasks based on the provided slug.
+// Used YouTube and CoPilot to help with the code structure and logic.
+
 const { generateTasks } = require('./index.js');
 
 test('generateTasks should return an array of tasks with correct structure', () => {
