@@ -1,6 +1,9 @@
 {
-  "devDependencies": {
-    "@types/jest": "^29.5.14",
-    "jest-gas": "^1.1.2"
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-gas",
+    "testMatch": ["**/__tests__/**/*.test.js"]
   }
 }
