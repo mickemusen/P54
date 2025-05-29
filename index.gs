@@ -9,7 +9,7 @@ function generateTasks(objSlug = "Acquire-High-Paying-Clients") {
     
     tasks.push({
       taskId: `OBJ-${today.getFullYear()}-999-T${String(i+1).padStart(2, "0")}`,
-      title: `Task ${i+1} for ${clientsName}`,
+      title: `${clientsName}`,
       dueDate: dueDate.toISOString().split("T")[0]
     });
   }

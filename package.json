@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest --no-cache"
   },
-  "jest": {
-    "preset": "jest-gas",
-    "testMatch": ["**/__tests__/**/*.test.js"]
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-gas": "^1.1.0",
+    "gas-local": "^1.8.0"
   }
 }
